@@ -1,0 +1,45 @@
+[
+    {
+        "instances": [
+            {
+                "uri": "https://restcountries.com/#asia",
+                "query_args": {
+                    "path": "asia",
+                    "limit": 50,
+                    "max": 0
+                },
+                "remote": {
+                    "refresh": {"interval": 60}
+                },
+                "is_active": true
+            },
+            {
+                "uri": "https://restcountries.com/#europe",
+                "query_args": {
+                    "path": "europe",
+                    "limit": 55,
+                    "max": 0
+                },
+                "remote": {
+                    "refresh": {"interval": 60}
+                },
+                "is_active": true
+            },
+            {
+                "uri": "https://restcountries.com/#africa",
+                "query_args": {
+                    "path": "africa",
+                    "limit": 60,
+                    "max": 0
+                },
+                "remote": {
+                    "refresh": {"interval": 60}
+                },
+                "is_active": true
+            }
+        ],
+        "is_active": true,
+        "extractor": "restcountries.extractor",
+        "table": "countries"
+    }
+]
